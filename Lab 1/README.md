@@ -178,7 +178,7 @@ https://drive.google.com/file/d/1GETH-EEZ1-95ro7HngnYPIrZf_9Lz1Pa/view?usp=shari
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-*My wife Quinn helps me to record the video.
+*My wife Quinn helps me to record the video.*
 
 # Staging Interaction, Part 2 
 
