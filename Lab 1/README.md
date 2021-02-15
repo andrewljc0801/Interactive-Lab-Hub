@@ -79,8 +79,18 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here.**
 
+![storyboard](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%201/CS%205424%20lab1%20storyboard.jpeg?raw=true)
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
+
+
+**Peer Feedback**
+* Usefullness
+  * A good iead since many people are bothered by this problem (wasting food due to not eat it on time).
+  * The light can have a more complicated setting to point out the specific food that needs to be pay attention to.
+* User Friendliness
+  * It's hard for people with deuteranomaly and protanomaly (red-green color blind) to use.
 
 
 ## Part B. Act out the Interaction
