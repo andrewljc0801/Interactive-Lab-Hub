@@ -62,19 +62,19 @@ To stage the interaction with your interactive device, think about:
 
 _Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
 
-**In the kitchen. Usually it happens when Andrew open the fridge, check on the food and think about what he is going to eat.**
+**In the kitchen. Usually, it happens when Andrew open the fridge, check on the food and think about what he is going to eat.**
 
 _Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
 
-**Andrew is the primary player who involved in the interaction. When his family members use the fridge, they can be secondary players. In general, whoever use this fridge involves in the interaction.**
+**Andrew is the primary player involved in the interaction. When his family members use the fridge, they can be secondary players. In general, whoever uses this fridge involves in the interaction.**
 
 _Activity:_ What is happening between the actors?
 
-**Andrew sticked the Fridge Reminder on the fridge which uses different colors of light to indicate whether the food in the fridge is fresh or not. When the light is green, it means the food in the fridge is still fresh. When the light is yellow, it tells Andrew to pay attention to the food in the fridge that something needs to be eaten soon. When the light is red, it is an urgent reminder and some food in the fridge must be eaten immediately. As the light goes from green to red, it reminds Andrew how fresh the food is.**
+**Andrew stuck the Fridge Reminder on the fridge which uses different colors of light to indicate whether the food in the fridge is fresh or not. When the light is green, it means the food in the fridge is still fresh. When the light is yellow, it tells Andrew to pay attention to the food in the fridge that something needs to be eaten soon. When the light is red, it is an urgent reminder and some food in the fridge must be eaten immediately. As the light goes from green to red, it reminds Andrew how fresh the food is.**
 
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
-**The ultimate goal for Andrew is not wasting the food. As long as the food does not go bad and is eaten, Andrew acheieve his goal of not wasting the food.**
+**The ultimate goal for Andrew is not wasting the food. As long as the food does not go bad and is eaten, Andrew achieves his goal of not wasting the food.**
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here.**
@@ -86,9 +86,9 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 
 **Peer Feedback**
-* Usefullness
-  * A good iead since many people are bothered by this problem (wasting food due to not eat it on time).
-  * The light can have a more complicated setting to point out the specific food that needs to be pay attention to.
+* Usefulness
+  * A good idea since many people are bothered by this problem (wasting food due to not eat it on time).
+  * The light can have a more complicated setting to point out the specific food that needs to pay attention to.
 * User Friendliness
   * It's hard for people with deuteranomaly and protanomaly (red-green color blind) to use.
 
