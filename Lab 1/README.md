@@ -77,7 +77,7 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 **The ultimate goal for Andrew is not wasting the food. As long as the food does not go bad and is eaten, Andrew acheieve his goal of not wasting the food.**
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
-**Include a picture of your storyboard here**
+**Include a picture of your storyboard here.**
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
