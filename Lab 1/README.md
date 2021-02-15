@@ -123,6 +123,13 @@ If you run into technical issues with this tool, you can also use a light switch
 
 **Give us feedback on Tinkerbelle.**
 
+*Feedback*
+* Pros
+ * It works pretty well in controlling the color and voice. A great tool in general.
+* Cons:
+ * It would be helpful if an instruction is provided on both terminals (smartphone and laptop). 
+ * The buttons on the client-side should be hidden after the user press the "Tinkerbelle" since the buttons are no longer needed as being a client.
+
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
