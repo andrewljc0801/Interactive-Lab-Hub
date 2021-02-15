@@ -88,7 +88,7 @@ Present your idea to the other people in your breakout room. You can just get fe
 **Peer Feedback**
 * Usefulness
   * A good idea since many people are bothered by this problem (wasting food due to not eat it on time).
-  * The light can have a more complicated setting to point out the specific food that needs to pay attention to.
+  * The light can have a more complicated setting to point out the specific food that people need to pay attention to.
 * User Friendliness
   * It's hard for people with deuteranomaly and protanomaly (red-green color blind) to use.
 
