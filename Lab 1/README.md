@@ -99,8 +99,17 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 **Are there things that seemed better on paper than acted out?**
 
+* Different food has different guidelines of storing (time of being fresh, storage place, etc). How can this device interact with this issue?
+* How does the device work? (Using a sensor to detect the freshness of the food or using a timer.)
+* People still need to find out the food in "urgent" by themselves.
+
+  
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
+* Besides different colors of the light, the device can use the flashing frequency of the light to indicate how fresh the food is. For instance, if the food needs to be eaten immediately, it can flash quickly.
+* The device can have different regions of color to indicate the position of the food.
+* The device can turn on the green light indicator only when people approach the fridge and always turn on the red light until people take action.
+  
 
 ## Part C. Prototype the device
 
