@@ -136,9 +136,18 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 **Include your first attempts at recording the set-up video here.**
 
+*Set-up Video:
+
+https://drive.google.com/file/d/1ivWbRjfowvjkjHJvuQx1eHTee6XSctZg/view?usp=sharing
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
+
+*Follow-up Video(paper prototype):
+
+https://drive.google.com/file/d/1oCXDv8Pmf02n8tqZ9T_sy1aELVwLskdE/view?usp=sharing
+https://drive.google.com/file/d/1yTTa-2VzCNbcL3iS-bHmkWYN7Flu4KaW/view?usp=sharing
 
 ## Part E. Costume the device
 
@@ -148,15 +157,28 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
+*The device looks exactly the same as showing in the set-up video. Instead, the real device should use magnet in order to adhere on the fridge.
+
+![magnet](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%201/fridge%20magnet.jpg?raw=true)
+
+
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
+* The convenience and exsiting products played an important role in the design process. The fridge magnet determines how it sticks on the fridge, and the simple light emphasize how easy it can be used.
 
 
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
 
+*Final Video:
+
+https://drive.google.com/file/d/1ffCEUi5kNyCPdcr5TPWW3jFun-uJA-sT/view?usp=sharing
+https://drive.google.com/file/d/1GETH-EEZ1-95ro7HngnYPIrZf_9Lz1Pa/view?usp=sharing
+
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+*My wife Quinn helps me to record the video.
 
 # Staging Interaction, Part 2 
 
