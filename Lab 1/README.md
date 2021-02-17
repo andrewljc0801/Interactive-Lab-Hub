@@ -191,7 +191,7 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
-*I received feedback from Jianang Wang(jw2594), Hangyu Lin(hl2357), and Quinn Wu(yw2325):
+*I received feedback from Jianang Wang(jw2594), Hangyu Lin(hl2357), and Quinn Wu(yw2325):*
 * **Video Content:** It's not very clear that what does the device indicate. It's better to have some conversations or explainations.
   * "The goal was to pervent the person from opening the fridge for some condition and waste energy." (Peer's understanding of the video)
 * **Design of The Device:** The light only tells the user that there is some food that need to be eaten in the near future. However, it doesn't specifically point out what it is, or how emergency it is.
