@@ -204,4 +204,8 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
-**Document everything here.**
+**According to the feedback of part 1, I decided to add several features and  make some changes:**
+* Name and location of the food: Use the text and food images to give the users clear information.
+* Sound and vibration: Use the sound and vibration to describe the severity.
+* Flashing light: Use the flashing light to attract the users' attention.
+* Water level: Use water with light instead of different colors of light to represent how fresh the food is.
