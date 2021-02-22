@@ -209,3 +209,7 @@ Do last week’s assignment again, but this time:
 * Sound and vibration: Use the sound and vibration to describe the severity.
 * Flashing light: Use the flashing light to attract the users' attention.
 * Water level: Use water with light instead of different colors of light to represent how fresh the food is.
+
+
+**Final Video Link: (Upgrade Version of the Fridge Reminder)**
+https://drive.google.com/file/d/1U4u_S3rWd8-M5qvicGS-GZAeWH4OyMf5/view?usp=sharing
