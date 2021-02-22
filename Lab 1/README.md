@@ -210,6 +210,14 @@ Do last week’s assignment again, but this time:
 * Flashing light: Use the flashing light to attract the users' attention.
 * Water level: Use water with light instead of different colors of light to represent how fresh the food is.
 
+**Storyboard:**
+This is a continued storyboard which includes the upgrade version of the device, Fridge Reminder.
+![storyboard](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IDD%20Lab1%20Part%202%20Continued.jpg?raw=true)
+
+
+**Paper Prototype: (Design of the Fridge Reminder)**
+![PaperPrototype](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%201/IDD%20Lab1%20Part%202%20Paper%20Prototype.jpg?raw=true)
+
 
 **Final Video Link: (Upgrade Version of the Fridge Reminder)**
 https://drive.google.com/file/d/1U4u_S3rWd8-M5qvicGS-GZAeWH4OyMf5/view?usp=sharing
