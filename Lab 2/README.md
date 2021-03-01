@@ -73,6 +73,9 @@ pi@ixe00:~ $ source circuitpython/bin/activate
 
 ```
 
+![partA](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%202/Screenshots/Part%20A.png?raw=true)
+
+
 ## Part B. 
 ### Try out the Command Line Clock
 Clone the repo for this assignment
@@ -92,6 +95,9 @@ Install the packages from the requirements.txt and run the example
 ```
 you can press `ctrl-c` to exit.
 If you're unfamiliar with the code in `cli_clock.py` have a look at [this refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you're still concerned please reach out to the teaching staff!
+
+
+![partB](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%202/Screenshots/Part%20B.png?raw=true)
 
 
 ## Part C. 
@@ -139,11 +145,17 @@ You can look in `stats.py` for how to display text on the screen
 You can look in `image.py` for an example of how to display an image on the screen. Can you make it switch to another image when you push one of the buttons?
 
 
+Here is the link of the video demo:
+
+https://drive.google.com/file/d/1fxTRps_eaXP8d2Jgu5izRsCMVL89bweb/view?usp=sharing
+
 
 ## Part D. 
 ## Set up the Display Clock Demo
 
 In `screen_clock.py`. Show the time by filling in the while loop. You can use the code in `cli_clock.py` and `stats.py` to figure this out.
+
+**Please see the "screen_clock.py" for the implementation.**
 
 
 ## Part E.
@@ -165,13 +177,28 @@ git push
 
 After that git will ask you to login to your github account to upload.
 
+
+**Please see the "new_clock.py" for the implementation.**
+
+The device will give the user recommendations of what he/she is suggested to do at this time.
+
+
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**
 
+Here is the link of the video demo:
+
+https://drive.google.com/file/d/1OG1WPMMFARMh316PndQbWCt9PKjl_Xk5/view?usp=sharing
+
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+**Further Interactions and Features:**
+* Add images or animations as the background of the recommendations
+* If no actions(pressing buttons) happen in 7 seconds when displaying the clock or the recommendations, it should automatically go back to the welcome screen
+* If the user achieves some goals, he/she can press the button B. The device will display different images based on the number of goals he/she achieved.
 
 
