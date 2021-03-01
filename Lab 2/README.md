@@ -180,7 +180,7 @@ After that git will ask you to login to your github account to upload.
 
 **Please see the "new_clock.py" for the implementation.**
 
-The device will give the user recommendations of what he/she is suggested to do at this time.
+**The device will give the user recommendations of what he/she is suggested to do at this time.**
 
 
 ## Part F. 
