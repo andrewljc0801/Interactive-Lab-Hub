@@ -147,11 +147,11 @@ Board:
 
 Inside:
 
-![Inside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Inside_design.HEIC?raw=true)
+![Inside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Inside_design.jpg?raw=true)
 
 Outside:
 
-![Outside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/outside_design.HEIC?raw=true)
+![Outside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/outside_design.jpg?raw=true)
 
 
 **b. Make a video of your paper display in action.**
@@ -206,11 +206,11 @@ Board:
 
 Inside:
 
-![Inside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Inside_design.HEIC?raw=true)
+![Inside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Inside_design.jpg?raw=true)
 
 Outside:
 
-![Outside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/outside_design.HEIC?raw=true)
+![Outside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/outside_design.jpg?raw=true)
 
 
 3. "Works like" prototypes: show us what the device can do
