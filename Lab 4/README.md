@@ -202,7 +202,7 @@ Board:
 
 2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
 
-**As we showed before, here is how it looks like: (It's pretty light, about 0.03 pounds.)**
+**As we showed before, here is how it looks like: (It's pretty light, about 0.03 pound.)**
 
 Inside:
 
