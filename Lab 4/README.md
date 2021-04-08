@@ -162,7 +162,7 @@ https://drive.google.com/file/d/13oLg1N4CRtApbQOo7F1VefY4eAJBSQUE/view?usp=shari
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
-As we planed, the size of piano keys should be suitable for pressing, and the overall weight should be small, because it was designed as a "playable" piano that people can compete with their friends by the correctness of the song they play. The sound delay should be small that people would not recognize it.
+As we planed, the size of piano keys should be suitable for pressing, and the overall weight should be light, because it was designed as a "playable" piano that people can compete with their friends by the correctness of the song they play. The sound delay should be small so that people would not recognize it.
 
 ### Part D
 ### Materiality
