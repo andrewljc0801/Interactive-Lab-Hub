@@ -179,7 +179,7 @@ Cardboard, Poster Board, White/Black Spray Paint, Rubber Bands, Qwiic Cable, Cop
 
 **b. explain the selection.**
 
-At the end, we selected the poster board instead of cardboard, because cardboard will make the device a bit "heavy" than we expected, and it was hard to construct the shape we wanted. The poster board was easy to cut. We used the white and black spray paint to make the piano keys look real, and we used the rubber bands to connect the keys to the board in order to make the keys resilient. Since we wanted to make the whole device relatively small but has 12 keys connecting to the capacitive sensor, we used the copper tape inside the device.
+At the end, we selected the poster board instead of cardboard, because cardboard will make the device a bit "heavy" than we expected, and it was hard to construct the shape we wanted. The poster board was easy to cut. We used the white and black spray paint to make the piano keys look real, and we used the rubber bands to connect the keys to the board in order to make the keys resilient. Since we wanted to make the whole device relatively small but has 12 keys connecting to the capacitive sensor, we used the copper tape for the connections.
 
 ### Part 2.
 
