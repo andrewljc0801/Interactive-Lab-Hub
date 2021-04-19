@@ -1,0 +1,4 @@
+0 Car
+1 Person
+2 Wall
+3 Unrelated
