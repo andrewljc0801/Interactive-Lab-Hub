@@ -1,6 +1,4 @@
-# Punny title goes here
-
-
+# m[Q](https://en.wikipedia.org/wiki/QAnon)tt[Anon](https://en.wikipedia.org/wiki/QAnon): Where We Go One, We Go All
 
 ## Prep
 
@@ -9,19 +7,17 @@
 3. Readings 
    * [MQTT](#MQTT)
    * [The Presence Table](https://dl.acm.org/doi/10.1145/1935701.1935800) and [video](https://vimeo.com/15932020)
-   * 
+
 
 ## Introduction
 
 The point of this lab is to introduce you to distributed interaction. We've included a some Natural Language Processing (NLP) and Generation (NLG) but those are not really the emphasis. Feel free to dig into the examples and play around the code which you can integrate into your projects. However we want to emphasize the grading will focus on your ability to develop interesting uses for messaging across distributed devices. 
 
-
-
 ## MQTT
 
 MQTT is a lightweight messaging portal invented in 1999 for low bandwidth networks. It was later adopted as a defacto standard for a variety of Internet of Things (IoT) devices. 
 
-#### The Bits
+### The Bits
 
 * **Broker** - The central server node that receives all messages and sends them out to the interested clients. Our broker is hosted on the far lab server (Thanks David!) at `farlab.infosci.cornell.edu/8883`
 * **Client** - A device that subscribes or publishes information on the network
@@ -31,7 +27,7 @@ MQTT is a lightweight messaging portal invented in 1999 for low bandwidth networ
 
 Setting up a broker isn't much work but for the purposes of this class you should all use the broker we've set up for you. 
 
-#### Useful Tooling
+### Useful Tooling
 
 Debugging and visualizing what's happening on your MQTT broker can be helpful. We like [MQTT Explorer](http://mqtt-explorer.com/). You can connect by putting in the settings from the image below.
 
@@ -43,37 +39,48 @@ Debugging and visualizing what's happening on your MQTT broker can be helpful. W
 
 Once connected you should be able to see all the messaged on the IDD topic. From the interface you can send and plot messages as well.
 
-## Internet of Cornell Tech Things 
 
-You will join a network of loosely networked Cornell Tech Things, which use the MQTT to communicate to one another. For the first step in this, we will build a simple client-server between your computer and your Interaction Engine. (Use the ``HelloThere`` and ``HelloFromHere`` code samples to do this!)
 
-```
-### Important side note
-The ``HelloThere`` and ``HelloFromHere`` examples are used to use an MQTT server/broker that is no longer active. In order to test and experiment with these examples please use the ```mqtt.eclipse.org``` address.
+## Send and Receive 
 
-Set up your Arduino so that it can control an RGB LED and read input from a button.
-```
+[sender.py](./sender.py) and and [reader.py](./reader.py) show you the basics of using the mqtt in python.  Lets spend a few minutes running these and seeing how messages are transferred and show up. 
 
-Now, change the code for your Interaction Engine so that you can set different buttons on a remote webpage that change the color of the RGB LED. Also, set it so that you can press a button to change the background color on the webpage. (Again, the ``HelloThere`` and ``HelloFromHere`` code samples show you how to communicate with a MQTT server. Merge the code from those samples into your interaction engine code to control the light and to send messages based on the button press.)
 
-Now we will modify our Interaction Engine to send messages to a MQTT server/broker.  
 
-When you start your MQTT client, you will specify “your color”. When you press your button, the client will send this color to the MQTT server, and all the other devices on the server will change their LEDs this color. 
+To run these examples make sure to install the packages from `requirements.txt`
 
-We will use ```mqtt.eclipse.org```, channel IxE for a MQTT server/broker for the course. The TA [has set up a web camera with her devices being broadcast](http://farlab.infosci.cornell.edu:8081) so that you can see if your actions change the LED of her Thing. You should be able to press your button and see the remote LED change to your color. On the remote webpage, you should be able to press a color button and see it show up on your LED.
 
-When everyone in the class is connected to the server, everyone will be able to push their color out to everyone else’s Things by pressing their own buttons.
+## The One True ColorNet
 
-Technical specification:
-```
-MQTT_boker: mqtt.eclipse.org 
-Topic: ixe/
-Acceptable messages (string): 'red' || 'green' || 'blue' (more to be added later)
-```
+It is with great fortitude and resilience that we shall worship at the altar of the *OneColor*. Through unity of the collective RGB we too can find unity in our heart, minds and souls. With the help of machines can  overthrow the bourgeoisie, get on the same wavelength (this was also a color pun) and establish [Fully Automated Luxury Communism](https://en.wikipedia.org/wiki/Fully_Automated_Luxury_Communism).
+
+
+
+The first step on the path to *collective* enlightenment, plug in the [APDS-9960 Proximity, Light, RGB, and Gesture Sensor](https://www.adafruit.com/product/3595).
+
+<img src="https://cdn-shop.adafruit.com/970x728/3595-03.jpg" height="300">
+
+You are almost there!
+
+The second step to achieving our great enlightenment is to run `python color.py`
+
+You will find the two squares on the display. Half is showing an approximation of the output from the color sensor. The other half is up to the collective. Press the top button to share your color with the class. Your color is now our color, our color is now your color. We are one. 
+
+I was not super careful with handling the loop so you may need to press more than once if the timing isn't quite right. Also I have't load tested it so things might just immediately break when every pushes the button at once.
+
+You may ask "but what if I missed class?"
+
+Am I not admitted into the collective enlightenment of the *OneColor*?
+
+Of course not! You can got to [https://one-true-colornet.glitch.me/](https://one-true-colornet.glitch.me/) and become one with the ColorNet on the inter-webs.
+
+Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
+
+
 
 ## Make it your own
 
-Find at least one class partner, and design a distributed application together. 
+Find at least one class (more are okay) partner, and design a distributed application together. 
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
@@ -82,3 +89,5 @@ Find at least one class partner, and design a distributed application together.
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+**5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
