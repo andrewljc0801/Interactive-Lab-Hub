@@ -113,6 +113,24 @@ Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonT
 #### PyTorch  
 As a note, the global Python install contains also a PyTorch installation. That can be experimented with as well if you are so inclined.
 
+
+### Screenshots of different sense-making algorithms:
+
+#### Contours-detection:
+![Contours-detection](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%205/OpenCV_Examples_Screenshots/contour_out.jpg?raw=true)
+
+#### Face-detection:
+![Face-detection](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%205/OpenCV_Examples_Screenshots/faces_detected.jpg?raw=true)
+
+#### Flow-detection:
+![Flow-detection](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%205/OpenCV_Examples_Screenshots/flow.png?raw=true)
+
+#### Object-detection:
+![Object-detection](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%205/OpenCV_Examples_Screenshots/detected_out.jpg?raw=true)
+
+#### Google Teachable Machines:
+![car](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%205/OpenCV_Examples_Screenshots/car.png?raw=true)
+
 ### Part B
 ### Construct a simple interaction.
 
@@ -121,40 +139,100 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
+### I tried the Google Teachable Machines and used the image classification. First, I put some images of car, human, and wall as the dataset to train the model. Then, when I displayed a particular object to the camera, the percentage in the output demonstrated the prediction. In other words, it's predicted as the object with higher percentage. (See the examples experimentations for how it worked.) 
+
+### Google Teachable Machines:
+![car](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%205/OpenCV_Examples_Screenshots/car.png?raw=true)
+![human](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%205/OpenCV_Examples_Screenshots/person.png?raw=true)
+![wall](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%205/OpenCV_Examples_Screenshots/wall.png?raw=true)
+
+
+#### I designed a visual assistant device for people who are visually impaired, called "Vision". The main goal of this device is to help people recognize the objects that are in front of them and use audio output to tell what the objects are. I will answer the questions in C and D regarding my project after "Part 2". 
+
+
+### Part 2.
+
+Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+
+
+#### Desgin of "Vision":
+![design](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%205/Vision%20Design.jpg?raw=true)
+
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it do what it is supposed to do? 
+
+*When the recognizable objects present in front of it. (Car, Wall and Human)*
+
+2. When does it fail? 
+
+*Mostly if an unrecognizable object presents (like cup, colorful pictures, etc), it gives the wrong result.*
+
+3. When it fails, why does it fail? 
+
+*Because the model has never seen the object before or it has similar characteristics with recognizable objects.*
+ 
+4. Based on the behavior you have seen, what other scenarios could cause problems? 
+
+*Poor lighting environment, unseen objects, similar shape objects.*
 
 **Think about someone using the system. Describe how you think this will work.**
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are they aware of the uncertainties in the system? 
+
+*I tried to handle the situation that if an unrelated object present, "Vision" will tell people to ask someone to help them identify what it is. However, if the object is classified incorrectly (a car is detected as "wall"), the users won't know.*
+
+2. How bad would they be impacted by a miss classification? 
+
+*Since "Vision" is designed to help visually impaired people recognize the objects that are in front of them and use audio output to tell them what they are, wrong classifications would cause some troubles. For example, if "Vision" detects a car as a human, the user might have safety issue.*
+
+3. How could change your interactive system to address this? 
+
+*One simple way is always prompting the users being aware that the system might give the wrong results.*
+
+4. Are there optimizations you can try to do on your sense-making algorithm. 
+
+*Beside the simple solution mentioned above, another approach is optimizing the dataset to cover more possible objects.*
 
 ### Part D
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
-* What is a good environment for X?
-* What is a bad environment for X?
-* When will X break?
-* When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+* What can you use "Vision" for?
+
+*It can be used to recognize things. The goal of "Vision" is to help people recognize the objects that are in front of them and use audio output to tell them what the objects are.*
+
+* What is a good environment for "Vision"?
+
+*Adequate lighting enviornment and not many objects appear in a single time.*
+
+* What is a bad environment for "Vision"?
+
+*Poor lighting enviornment and many objects appear in a single time or even objects that have never seen before.*
+
+* When will "Vision" break?
+
+*It breaks when the objects that have never seen before appear, and sometimes when multiple recognizable objects appear. Though it rarely happened, it also breaks when single recognizable object appear but is incorrectly classified.*
+
+* When it breaks, how will "Vision" break?
+
+*It simply gives the user wrong output. For example, a "tape" is placed in front of the camera, but it is incorrectly classified as "car". Therefore, "Vision" says "Watch out! There is a car in front of you. Ask somebody for help!". Ideally, it's supposed to say "Cannot recognize the object. Maybe ask someone for help.".*
+
+* What are other properties/behaviors of "Vision"?
+
+*"Vision" will not keep speaking if no new object is detected (eliminate potential annoyance). It also handle the situation that an object which has never seen before appears.*
+
+* How does "Vision" feel?
+
+*It is designed as an easy-carry device (very light - 0.06 pound) that people can hang on their chest and the sound will be played via bluetooth headphones. It's convienient for visually impaired people to take with them and go out.*
+
 
 **Include a short video demonstrating the answers to these questions.**
 
-### Part 2.
+#### Here is the final demo video:
 
-Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
-
-**Include a short video demonstrating the finished result.**
-
+https://drive.google.com/file/d/1c2_Qysjla18U5fR-h_k50MSjZpwJFlQ8/view?usp=sharing
