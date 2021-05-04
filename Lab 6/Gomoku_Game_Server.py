@@ -53,8 +53,8 @@ screen = pygame.display.set_mode((800, 800), 0, 32)
 bg = pygame.image.load("board_background.jpg")
 pygame.display.set_caption("Gomoku (Five in a Row)")
 font = pygame.font.Font("C:\Windows\Fonts\BRADHITC.TTF", 40)
-w_success = font.render("Player 1(White) Win!", True, (255, 255, 255))
-b_success = font.render("Player 2(Black) Win!", True, (0, 0, 0))
+w_success = font.render("Player 1(White) Wins!", True, (255, 255, 255))
+b_success = font.render("Player 2(Black) Wins!", True, (0, 0, 0))
 
 USER_1 = 1
 USER_2 = 2
@@ -308,9 +308,9 @@ while True:
                 if list_board_status[index[0]][index[1]] == 0:  # only 0 is available
                     if player_number%2 == 1 and PLAYER1:
                         list_board_status[index[0]][index[1]] = USER_1
-                        judge = Judge(list_board_status, PLAY, (index[0], index[1]))
+                        judge = Judge(list_board_status, PLAYER1, (index[0], index[1]))
                         if judge.judge:
-                            print("Player 1(White) Win!")
+                            print("Player 1(White) Wins!")
                             screen.blit(w_success, (215, 40))
                             gameover = True
                         else:
@@ -318,9 +318,9 @@ while True:
                         PLAYER1 = False    
                     elif player_number%2 == 0 and not PLAYER1:
                         list_board_status[index[0]][index[1]] = USER_2
-                        judge = Judge(list_board_status, PLAY, (index[0], index[1]))
+                        judge = Judge(list_board_status, PLAYER1, (index[0], index[1]))
                         if judge.judge:
-                            print("Player 2(Black) Win!")
+                            print("Player 2(Black) Wins!")
                             screen.blit(b_success, (215, 40))
                             gameover = True
                         else:
@@ -337,6 +337,7 @@ while True:
                             DrawChess(list_board_pos[i][j], USER_2)
                         else:
                             pass
+                pygame.display.update()
           
             else:
                 if player_number%2 == 1 and PLAYER1:
@@ -353,6 +354,7 @@ while True:
                                 DrawChess(list_board_pos[i][j], USER_2)
                             else:
                                 pass
+                    pygame.display.update()
                 elif player_number%2 == 0 and not PLAYER1:
                     if current_position[0] in range(120, 681) and current_position[1] in range(120, 681) and last_position != current_position:
                         draw_board()
@@ -367,6 +369,7 @@ while True:
                                 DrawChess(list_board_pos[i][j], USER_2)
                             else:
                                 pass
+                    pygame.display.update()
     pygame.display.update()
     if gameover:
         time.sleep(5)
